@@ -1,0 +1,20 @@
+{
+    "name" : "ktaris/cadenaoriginal",
+    "description" : "Conjunto de clases para obtener la cadena original para un CFDI v3.3.",
+    "keywords" : [
+        "cfdi",
+        "sat"
+    ],
+    "type" : "library",
+    "license" : "MIT License",
+    "authors" : [{
+            "name" : "Carlos Ramos",
+            "email" : "carlos@ramoscarlos.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "ktaris\\cadenaoriginal\\" : ""
+        }
+    }
+}
