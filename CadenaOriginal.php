@@ -15,8 +15,8 @@ class CadenaOriginal
         // Se carga el xsl, en base al xslt original, con cadenas para incluir los archivos
         // de los demás xslt desde archivos locales, a través de una sustitución de cadena
         // con PHP, y se entrega ee archivo al processamiento de xslt posteriormente.
-        $basePath = dirname(__FILE__).DIRECTORY_SEPARATOR.'xslt';
-        $xslFileName = $basePath.DIRECTORY_SEPARATOR.'cadenaoriginal_3_3.xsl';
+        $basePath = dirname(__FILE__).DIRECTORY_SEPARATOR.'xslt'.DIRECTORY_SEPARATOR;
+        $xslFileName = $basePath.'cadenaoriginal_3_3.xsl';
         $xslFile = file_get_contents($xslFileName);
         $xslFile = str_replace('{$PATH}', $basePath, $xslFile);
 

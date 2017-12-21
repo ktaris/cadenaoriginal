@@ -6,37 +6,37 @@
   <!--
         En esta sección se define la inclusión de las plantillas de utilerías para colapsar espacios
     -->
-  <xsl:include href="{$PATH}/utilerias.xslt"/>
+  <xsl:include href="{$PATH}utilerias.xslt"/>
   <!--
         En esta sección se define la inclusión de las demás plantillas de transformación para
         la generación de las cadenas originales de los complementos fiscales
     -->
-  <xsl:include href="{$PATH}/ecc11.xslt"/>
-  <xsl:include href="{$PATH}/donat11.xslt"/>
-  <xsl:include href="{$PATH}/divisas.xslt"/>
-  <xsl:include href="{$PATH}/implocal.xslt"/>
-  <xsl:include href="{$PATH}/leyendasFisc.xslt"/>
-  <xsl:include href="{$PATH}/pfic.xslt"/>
-  <xsl:include href="{$PATH}/TuristaPasajeroExtranjero.xslt"/>
-  <xsl:include href="{$PATH}/nomina12.xslt"/>
-  <xsl:include href="{$PATH}/cfdiregistrofiscal.xslt"/>
-  <xsl:include href="{$PATH}/pagoenespecie.xslt"/>
-  <xsl:include href="{$PATH}/aerolineas.xslt"/>
-  <xsl:include href="{$PATH}/valesdedespensa.xslt"/>
-  <xsl:include href="{$PATH}/consumodecombustibles.xslt"/>
-  <xsl:include href="{$PATH}/notariospublicos.xslt"/>
-  <xsl:include href="{$PATH}/vehiculousado.xslt"/>
-  <xsl:include href="{$PATH}/servicioparcialconstruccion.xslt"/>
-  <xsl:include href="{$PATH}/renovacionysustitucionvehiculos.xslt"/>
-  <xsl:include href="{$PATH}/certificadodedestruccion.xslt"/>
-  <xsl:include href="{$PATH}/obrasarteantiguedades.xslt"/>
-  <xsl:include href="{$PATH}/ComercioExterior11.xslt"/>
-  <xsl:include href="{$PATH}/ine11.xslt"/>
-  <xsl:include href="{$PATH}/iedu.xslt"/>
-  <xsl:include href="{$PATH}/ventavehiculos11.xslt"/>
-  <xsl:include href="{$PATH}/terceros11.xslt"/>
-  <xsl:include href="{$PATH}/Pagos10.xslt"/>
-  <xsl:include href="{$PATH}/detallista.xslt"/>
+  <xsl:include href="{$PATH}ecc11.xslt"/>
+  <xsl:include href="{$PATH}donat11.xslt"/>
+  <xsl:include href="{$PATH}divisas.xslt"/>
+  <xsl:include href="{$PATH}implocal.xslt"/>
+  <xsl:include href="{$PATH}leyendasFisc.xslt"/>
+  <xsl:include href="{$PATH}pfic.xslt"/>
+  <xsl:include href="{$PATH}TuristaPasajeroExtranjero.xslt"/>
+  <xsl:include href="{$PATH}nomina12.xslt"/>
+  <xsl:include href="{$PATH}cfdiregistrofiscal.xslt"/>
+  <xsl:include href="{$PATH}pagoenespecie.xslt"/>
+  <xsl:include href="{$PATH}aerolineas.xslt"/>
+  <xsl:include href="{$PATH}valesdedespensa.xslt"/>
+  <xsl:include href="{$PATH}consumodecombustibles.xslt"/>
+  <xsl:include href="{$PATH}notariospublicos.xslt"/>
+  <xsl:include href="{$PATH}vehiculousado.xslt"/>
+  <xsl:include href="{$PATH}servicioparcialconstruccion.xslt"/>
+  <xsl:include href="{$PATH}renovacionysustitucionvehiculos.xslt"/>
+  <xsl:include href="{$PATH}certificadodedestruccion.xslt"/>
+  <xsl:include href="{$PATH}obrasarteantiguedades.xslt"/>
+  <xsl:include href="{$PATH}ComercioExterior11.xslt"/>
+  <xsl:include href="{$PATH}ine11.xslt"/>
+  <xsl:include href="{$PATH}iedu.xslt"/>
+  <xsl:include href="{$PATH}ventavehiculos11.xslt"/>
+  <xsl:include href="{$PATH}terceros11.xslt"/>
+  <xsl:include href="{$PATH}Pagos10.xslt"/>
+  <xsl:include href="{$PATH}detallista.xslt"/>
 
 
   <!-- Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador || -->
